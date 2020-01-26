@@ -309,7 +309,7 @@ function bee=bee(dr)
         0,      dr(2),  0,      dr(3)/2,    0,          dr(1)/2;
         0,      0,      dr(3),  dr(2)/2,    dr(1)/2,    0];
 end
-%
+%% function [K, Vol] = Solve3DModelLin
 function [K, Vol] = Solve3DModelLin(model)
     %% preamble and defaults
     %

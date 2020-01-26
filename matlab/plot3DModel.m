@@ -186,18 +186,17 @@ if isfield(model, 'beams') && (opt.drawbeams),
     end
 end
 %% node labels
-if opt.nodeslabels,
+if opt.nodeslabels
     if opt.plotundef
-        for kk=1:size(model.nodes, 1),
+        for kk=1:size(model.nodes, 1)
             set(text(model.nodes(kk, 1), ...
                 model.nodes(kk, 2), ...
                 model.nodes(kk, 3), ...
-                sprintf('%i', kk)),'FontSize', opt.FontSize, ...
-                'EraseMode', 'xor');
+                sprintf('%i', kk)),'FontSize', opt.FontSize);
         end
     end
     if opt.plotdef
-        for kk=1:size(model.nodes, 1),
+        for kk=1:size(model.nodes, 1)
             set(text(model.nodes(kk, 1)+Disp(kk, 1), ...
                 model.nodes(kk, 2)+Disp(kk, 2), ...
                 model.nodes(kk, 3)+Disp(kk, 3), ...
@@ -226,8 +225,8 @@ if opt.plotdef
         'linestyle', 'none');
 end
 %% barslabels labels
-if opt.barslabels,
-    for kk=1:size(model.beams.nodes, 1),
+if opt.barslabels
+    for kk=1:size(model.beams.nodes, 1)
         r0 = mean([model.nodes(model.beams.nodes(kk,1),:);
             model.nodes(model.beams.nodes(kk,2),:)]);
         set(text(r0(1), r0(2), r0(3), ...
