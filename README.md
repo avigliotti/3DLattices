@@ -43,7 +43,7 @@ The file listed below contain the node coordinate and the connectivity of the la
 If you use these routines, or you find them useful for your work, you are kindly requested to cite the above [study](https://www.sciencedirect.com/science/article/pii/S0045782512000941) as 
 
 ```
-@ARTICLE{Vigliotti201227,
+@ARTICLE{CMAME201227,
    author={Vigliotti, A. and Pasini, D.}, 
    title={Stiffness and strength of tridimensional periodic lattices},
    journal={Computer Methods in Applied Mechanics and Engineering},
