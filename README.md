@@ -40,7 +40,7 @@ The file listed below contain the node coordinate and the connectivity of the la
 
 
 
-If you use these routines, or you find them useful for your work, you are kindly requested to cite the above [study](https://www.sciencedirect.com/science/article/pii/S0045782512000941) as 
+If you use these routines, or you find them useful for your work, please consider the above [study](https://www.sciencedirect.com/science/article/pii/S0045782512000941) as 
 
 ```
 @ARTICLE{CMAME201227,
