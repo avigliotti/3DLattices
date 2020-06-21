@@ -2,6 +2,8 @@
 
 This repository contains a few Mathematica and Matlab functions for the calculation of the homogenized material properties of three-dimensional lattice materials.
 
+The methodology employed here takes as input the model of the uint cell in terms of coordinates of the nodes, topology of the connecting beams and faces, as well as the periodic directions of the lattice, which are the directions along which the unit cell is meant to be replicated, and produces as outputs the stiffness matrix of the homegenized resulting lattice, in addition to show the deformed configuration of the lattice for pure deformation, in the frame of reference of the undeformed unit cell.
+
 More details on the homogenization technique can be found in [Stiffness and strength of tridimensional periodic lattices](https://www.sciencedirect.com/science/article/pii/S0045782512000941)
 
 ## Mathematica scripts
