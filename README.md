@@ -93,7 +93,7 @@ the lattice stiffnes matrix is :
 ![KGreatRhombicuboctahedron_c](https://github.com/avigliotti/3DLattices/blob/master/figures/KGreatRhombicuboctahedron_c.png)
 
 
-If you use these routines, or you find them useful for your work, please consider the above [study](https://www.sciencedirect.com/science/article/pii/S0045782512000941) as 
+If you use these routines, or you find them useful for your work, consider citing the above [study](https://www.sciencedirect.com/science/article/pii/S0045782512000941) as 
 
 ```
 @ARTICLE{CMAME201227,
