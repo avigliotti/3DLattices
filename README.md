@@ -12,10 +12,10 @@ the file ```Calc3DMatProp.m``` contains the functions needed to calculate the st
 The file listed below contain the node coordinate and the connectivity of the lattices analized in the above mentioned  [paper](https://www.sciencedirect.com/science/article/pii/S0045782512000941)
 ```
 - CubicLatticeBCC.nb
-- CubicLatticeFCC.nb                                                                             
-- CubicLattice.nb                                                                                
-- Cuboctahedron.nb                                                                               
-- RegularOctet.nb  
+- CubicLatticeFCC.nb
+- CubicLattice.nb
+- Cuboctahedron.nb
+- RegularOctet.nb
 ```
 
 ## Matlab scripts
